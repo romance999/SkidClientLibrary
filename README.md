@@ -1,5 +1,5 @@
 # SkidClientLibrary
-A template library to inject into the client
+A template library to inject into the Skid Clint
 
 # C# Injectable Librarys
 Normal c++ librarys have a DllMain that gets executed when you inject the library and passed through a switch statement, you would normally put your code inside of DLL_PROCESS_ATTACH case, there is not an equivalent for c# but we can do a trick to make a similar effect by using a static constructor, we would make a class and then initilize an object of that class
